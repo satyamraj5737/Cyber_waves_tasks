@@ -1,0 +1,10 @@
+<form (ngSubmit)="onSubmit()">
+    <!-- Implement form inputs for each field in the transaction object -->
+    <div>
+      <label for="transactionId">Transaction ID</label>
+      <input id="transactionId" [(ngModel)]="transaction.transactionId" name="transactionId">
+    </div>
+    <!-- Add more form fields here... -->
+    <button type="submit">Submit</button>
+  </form>
+  
